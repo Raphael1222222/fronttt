@@ -1,1 +1,9 @@
-### 16/052025
+### 14/05/2025 - Começando a página CEEP
+---
+### 16/05/2025 - Melhorando página
+---
+### 20/05/2025 - Cabeçalho
+---
+### 21/05/2025 - mexendo no contatos
+---
+### 02/06/2025 - Adicionando novas aquivos html

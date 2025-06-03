@@ -1,29 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body {
-
-    font-family: 'inter', sans-serif;
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
     color: #333;
-    line-height: 1.6;
+    line-height:1.6;
 }
 
-header {
-    background-color: #007bff;
+header{
+    background-color: #007bf0;
     padding: 20px;
     text-align: center;
-    color: white;
+    color:white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-header h1 {
+header h1{
     margin: 0;
     font-size: 2rem;
 }
 
-nav ul {
+nav ul{
     list-style-type: none;
     padding: 0;
     margin-top: 10px;
@@ -36,15 +33,16 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color:white;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
     transition: color 0.3s ease;
 }
 
-nav ul li a :hover {
+nav ul li a:hover {
     color: #f0f0f0;
+
 }
 
 main {
@@ -69,11 +67,11 @@ section h2 {
 }
 
 .card {
-    background: color #e9ecef;
+    background-color: #e9ecef;
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 10px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgb(0, 0, 0.05);
 }
 
 .card h3 {
@@ -84,7 +82,6 @@ section h2 {
 
 .form-container {
     background-color: #e9ecef;
-    margin-bottom: 20px;
     padding: 20px;
     border-radius: 8px;
     margin-top: 20px;
@@ -92,7 +89,7 @@ section h2 {
 
 .form-container h2 {
     color: #007bff;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 form label {
@@ -102,9 +99,7 @@ form label {
     color: #555;
 }
 
-form input,
-form textarea,
-form button {
+form input, form textarea, form button {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -114,13 +109,13 @@ form button {
 }
 
 form button {
-    background-color: #007bff;
+    background-color: #007bf0;
     color: white;
     border: none;
     cursor: pointer;
     margin-top: 20px;
     font-weight: 600;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3 ease;
 }
 
 form button:hover {
@@ -132,12 +127,13 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     border-top: 1px solid #495057;
+   
 }
 
-@media (max-width: 768px) {
-    header h1 {
+@media(max-width: 768px){
+    header h1{
         font-size: 1.8rem;
     }
 
@@ -150,21 +146,29 @@ footer {
     }
 
     section h2 {
-        font-size: 1.6rem;
+         font-size: 1.6rem; 
     }
 }
+
 @media(max-width: 480px){
-    nav ul{
+    nav ul {
+        flex-direction: column;
     }
-    nav ul li{
+
+    nav ul li {
         margin: 10px 0;
     }
-    main{
+
+    max {
         margin: 10px;
     }
-    form input, form textarea{
+
+    form input, form textarea {
         padding: 8px;
-      
     }
-    
+
+    form button {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
 }
